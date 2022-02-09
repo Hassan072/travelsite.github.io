@@ -1,0 +1,172 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main
+{
+	width: 100%;
+	height: 95vh;
+	background: url(03.jpg);
+	background-size: cover;
+
+	
+}
+
+.navleft
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0px;
+	cursor: pointer;
+}
+
+.links
+{
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.head
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: orange;
+	font-size: 24px;
+	font-family: sans-serif;
+	margin-left: 30px;
+}
+
+.links li
+{
+	list-style-type: none;
+	padding: 20px;
+}
+
+.links li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-family: arial;
+}
+
+.links li a:hover
+{
+	color: greenyellow;
+}
+
+.navright
+{
+	width: 35%;
+	text-align: right;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.srch
+{
+	font-family: Times New Roman;
+	background: transparent;
+	font-size: 18px;
+	border: 2px solid orange;
+	color: #fff;
+	border-bottom-left-radius: 5px;
+	border-top: none;
+	border-right: none;
+	
+}
+
+.background01
+{
+	background-color: black;
+	background-blend-mode: darken;
+}
+
+.btn
+{
+	background: transparent;
+	border: 2px solid orange;
+	color: #fff;
+	font-size: 18px;
+	border-top-right-radius: 5px;
+	border-bottom: none;
+	border-left: none;
+}
+
+.button:focus
+{
+	outline: none;
+}
+
+.search:focus
+{
+	outline: none;
+}
+.about
+{
+	padding: 50px;
+}
+
+span
+{
+	text-align: center;
+	font-family: sans-serif;
+	color: #3f3d3d;
+
+
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+ul p 
+{
+	text-align: justify;
+	letter-spacing: 1.3px;
+	font-family: sans-serif;
+	color: #3f3d3d;
+	list-style-type: none;
+	padding-top: 2%;
+}
+
+ul li img
+{
+	padding-top: 100px;
+}
+
+.main-about
+{
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	display: flex;
+	padding-right: 5%;
+}
+
+footer
+{
+	width: 100%;
+	height: 5vh;
+	background-color: black;
+}
+
+footer h1
+{
+	float: right;
+	padding-top: 20px;
+	padding-right: 30px;
+	color: white;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 0px
+
+}
